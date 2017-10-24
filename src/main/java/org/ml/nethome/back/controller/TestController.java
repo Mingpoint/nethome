@@ -11,17 +11,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/test")
+@RequestMapping(value = "/test")
 public class TestController {
 	@Autowired
 	private TestService testService;
-	@RequestMapping("/index")
+	@RequestMapping(value = "/index")
 	public String test(Model model){
-		MyTest test = testService.searchTest();
-		model.addAttribute("test", test);
+//		MyTest test = testService.searchTest();
+//		model.addAttribute("test", test);
+		System.out.println("djfdk");
 		return "test";
 	}
-	@RequestMapping("/save")
+	@RequestMapping(value = "/save")
 	@ResponseBody
 	public String save(HttpServletRequest request){
 		String parameter = request.getParameter("name");
