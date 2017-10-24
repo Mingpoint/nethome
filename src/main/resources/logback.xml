@@ -3,7 +3,7 @@
 	<!-- 应用名称 -->
 	 <property name="APP_NAME" value="nethome" /> 
 	<!-- 日志存放地址 -->
-	<property name="LOG_HOME" value="${catalina.base}/logs/${APP_NAME}" />
+	<property name="LOG_HOME" value="logs/${APP_NAME}" />
 	<!-- 日志名称 Controller出错信息 -->
 	<property name="LOG_NAME" value="error_log" />
 
