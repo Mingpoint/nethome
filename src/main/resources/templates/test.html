@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<html lang="zh-CN">
+<html xmlns:th="http://www.thymeleaf.org" lang="zh-CN">
+<!-- <html lang="zh-CN"> -->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,22 @@
 	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 	<title>Bootstrap 101 Template</title>
 	<!-- Bootstrap -->
+<!-- https://www.zhihu.com/question/20223939 -->
+<!-- 	<link th:href="@{/resources/static/bootstrap-3.3.7-dist/css/bootstrap.min.css}" rel="stylesheet"> -->
+<!-- 	<script th:src="@{/resources/static/jquery-3.2.1/jquery-3.2.1.min.js}"></script> -->
+<!-- 	<script th:src="@{/resources/static/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script> -->
 
-	<!--<link th:href="@{/resources/static/bootstrap-3.3.7-dist/css/bootstrap.min.css}" rel="stylesheet">-->
-	<!--<script th:src="@{/resources/static/jquery-3.2.1/jquery-3.2.1.min.js}"></script>-->
-	<!--<script th:src="@{/resources/static/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script>-->
+<!--     <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet"> -->
+<!--     <script th:src="@{/jquery/jquery-3.2.1.min.js}"></script> -->
+<!--     <script th:src="@{/bootstrap/js/bootstrap.min.js}"></script> -->
+    
+    <link th:href="@{/static/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/static/jquery/jquery-3.2.1.min.js}"></script>
+    <script th:src="@{/static/bootstrap/js/bootstrap.min.js}"></script>
 
-    <!--<link th:href="@{/static/bootstrap-3.3.7-dist/css/bootstrap.min.css}" rel="stylesheet">-->
-    <!--<script th:src="@{/static/jquery-3.2.1/jquery-3.2.1.min.js}"></script>-->
-    <!--<script th:src="@{/static/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script>-->
-
-	<link href="../static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="../static/jquery-3.2.1/jquery-3.2.1.min.js"></script>
-	<script src="../static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!-- 	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- 	<script src="/jquery/jquery-3.2.1.min.js"></script> -->
+<!-- 	<script src="/bootstrap/js/bootstrap.min.js"></script> -->
 
 </head>
 <body>
