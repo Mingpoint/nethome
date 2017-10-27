@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- <html xmlns:th="http://www.thymeleaf.org" lang="zh-CN"> -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nav</title>
+<!-- 	<script th:src="@{/static/jquery/jquery-3.2.1.min.js}"></script> -->
+	<script src="../static/jquery/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+		body {
+			background-color: white;
+			font-size: 18px; 
+			/*font-style: "΢���ź�";*/
+			margin: 0px 100px;
+			padding: 0px;
+			text-align: center;
+		}
+		.nav {
+			background-color: #333;
+			height: 50px;
+			margin: 0px 0px 15px;
+			padding: 1px;
+		}
+		ul {
+			list-style-type: none;
+			height: 100%;
+		}
+		li {
+			display: inline-block;
+			padding-left:  100px;
+		}
+		a {
+			text-decoration:none;
+			color: white;
+		}
+		.login {
+			float: right;
+			margin-right: 18px;
+		}
+		.divs {
+			border: 1px solid red;
+			height: 100px;
+		}
+		.main {
+			margin: 0px;
+			padding: 0px;
+			border: 1px solid red;
+		}
+		.footer {
+			height: 260px;
+			padding: 0px;
+			margin: 1px;
+			border: 1px solid green;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Article</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">About</a></li>
+			<li class="login"><a href="#">login</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<div class="article">Article</div>
+		<div class="photos">Photos</div>
+		<div class="about">About</div>
+	</div>
+	<div class="footer">
+		footers
+	</div>
+</body>
+</html>
